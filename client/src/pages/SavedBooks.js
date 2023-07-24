@@ -26,32 +26,15 @@ const SavedBooks = () => {
     }
 
     try {
-      await removeBook({
+      const { data } = await removeBook({
         variables: { bookId },
-        update(cache) {
-          cache.modify({
-            fields: {
-              me(existingMeData) {
-                return {
-                  ...existingMeData,
-                  savedBooks: existingMeData.savedBooks.filter(
-                    (book) => book.bookId !== bookId
-                  ),
-                };
-              },
-            },
-          });
-        },
       });
-
-      // upon success, remove book's id from localStorage
       removeBookId(bookId);
     } catch (err) {
       console.error(err);
     }
   };
 
-  // if data isn't here yet, say so
   if (loading) {
     return <h2>LOADING...</h2>;
   }
