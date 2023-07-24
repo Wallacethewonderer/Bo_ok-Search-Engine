@@ -17,7 +17,8 @@
     "mongoose": "^7.0.2",
     "dotenv": "^16.0.3",
     "apollo-server-express": "^3.6.2",
-    "graphql": "^16.2.0"
+    "graphql": "^16.2.0",
+    "mongodb": "^5.7.0"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
