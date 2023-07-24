@@ -1,2 +1,2 @@
 # Bo_ok-Search-Engine
-A Book Search Engine website built by Google Books API.
+A Book Search Engine website use Google Books API to fetch books.
