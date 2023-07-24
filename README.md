@@ -55,7 +55,7 @@ https://b0ok-search-engine-02844a6119bb.herokuapp.com/
 
 ## Screenshots
 
-![Screenshot](./assets/images/page1.png)
-![Screenshot](./assets/images/page2.png)
-![Screenshot](./assets/images/page3.png)
-![Screenshot](./assets/images/page4.png)
+![Screenshot](./asset/images/page1.png)
+![Screenshot](./asset/images/page2.png)
+![Screenshot](./asset/images/page3.png)
+![Screenshot](./asset/images/page4.png)
